@@ -1,12 +1,23 @@
 {
   "name": "@evologi/ngx-toolkit",
   "version": "0.0.1",
+  "description": "A set of useful tools for developing applications in Angular.",
   "type": "module",
   "peerDependencies": {
     "@angular/common": "^13.3.0",
     "@angular/core": "^13.3.0"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "tslib": "^2.3.0"
+  },
+  "author": "Evologi S.r.l. <support@evologi.it> (https://www.evologi.it/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evologi/ngx-toolkit.git"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.185"
   }
 }
